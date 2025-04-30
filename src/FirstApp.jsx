@@ -14,7 +14,7 @@ const getSummarize = (a, b) => {
 }
 
 
-export const FirstApp = ({ title, subtitle, name }) => {
+export const FirstApp = ({ title='Hola, soy Dani', subtitle=123, name = 'Dani' }) => {
 
     if (!title) {
         throw new Error("title is required");
@@ -34,14 +34,4 @@ export const FirstApp = ({ title, subtitle, name }) => {
 
 // i can use PropTypes to validate the props that i am passing to the component like a typescript strict typing
 
-FirstApp.propTypes = {
-    name: PropTypes.string,
-    subtitle: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-}
 
-FirstApp.defaultProps = {
-    name: 'Yesika',
-    subtitle: 123,
-    title: 'No hay titulo',
-}

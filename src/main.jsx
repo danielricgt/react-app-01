@@ -11,6 +11,6 @@ import CounterApp from './CounterApp';
 //  now i renderize the application
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <  CounterApp value={1} name='Daniel' subtitle='Galvan' title='Go' />
+        <  FirstApp title="Hola, soy Daniel" />
     </React.StrictMode>
 ) 

@@ -24,7 +24,7 @@ export const FirstApp = ({ title='Hola, soy Dani', subtitle=123, name = 'Dani' }
         //* <i need always to start a component encapsulated with a father node  > */
         <>
             {/* <h1> {JSON.stringify(messageObjetc)} FirstApp!!!</h1> */}
-            <h1>{title}</h1>
+            <h2 >{title}</h2>
             <h2>{subtitle}</h2>
             <p>{name}</p> 
             {/* <p>{getSummarize(1,12)}</p> */}

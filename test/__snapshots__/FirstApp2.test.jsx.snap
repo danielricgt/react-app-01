@@ -1,15 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test on fist app must to do match with sanpshot 1`] = `
+exports[`test on fist app must match with snapshop 1`] = `
 <div>
-  <span
+  <h1
     data-testid="testData"
   >
     Hola, soy Daniel
-  </span>
-  <h2>
-    123
-  </h2>
+  </h1>
   <h2>
     123
   </h2>

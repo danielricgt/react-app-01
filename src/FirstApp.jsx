@@ -14,7 +14,7 @@ const getSummarize = (a, b) => {
 }
 
 
-export const FirstApp = ({ title='Hola, soy Dani', subtitle=123, name = 'Dani' }) => {
+export const FirstApp = ({ title=' Hola, soy Dani ', subtitle=123, name = 'Dani' }) => {
 
     if (!title) {
         throw new Error("title is required");
@@ -24,7 +24,7 @@ export const FirstApp = ({ title='Hola, soy Dani', subtitle=123, name = 'Dani' }
         //* <i need always to start a component encapsulated with a father node  > */
         <>
             {/* <h1> {JSON.stringify(messageObjetc)} FirstApp!!!</h1> */}
-            <h2 >{title}</h2>
+            <h1 data-testid = "testData" >{ title }</h1>
             <h2>{subtitle}</h2>
             <p>{name}</p> 
             {/* <p>{getSummarize(1,12)}</p> */}

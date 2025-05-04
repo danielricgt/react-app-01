@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test on fist app should to do match with the snapshop 1`] = `
+<div>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+    120
+  </h2>
+  <p>
+    Hola, soy Dani
+     
+    Soy un subtitulo
+     
+    Dani
+  </p>
+  <button>
+    +1
+  </button>
+  <button>
+    -1 
+  </button>
+  <button
+    aria-label="btn-reset"
+  >
+    Reset
+  </button>
+</div>
+`;

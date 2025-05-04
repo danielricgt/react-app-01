@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import { useState } from "react";
 
 
-const CounterApp = ({ value,
-    title,
-    subtitle,
-    name,
+export const CounterApp = ({ value=100,
+    title='Hola, soy Dani',
+    subtitle = "Soy un subtitulo",
+    name= 'Dani',
 
 }) => {
     // i destructure the props that i am passing to the component
@@ -39,7 +39,7 @@ const CounterApp = ({ value,
             <p>{title} {subtitle} {name}</p>
             <button onClick={incrementButtonEvent}>+1</button>
             <button onClick={decrementButttonEvent}>-1 </button>
-            <button onClick={resetButtonEvent}>Reset</button>
+            <button aria-label='btn-reset'  onClick={resetButtonEvent}>Reset</button>
         </>
     )
 }
